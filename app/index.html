@@ -1,0 +1,40 @@
+<!--#set var="title" value="OptimizedHTML 5" -->
+<!--#include virtual="/parts/header.html" -->
+
+<main id="main">
+
+	<section class="app-comments">
+
+		<div class="app-container app-comments__container">
+
+			<form id="comment_form" class="comments-form">
+
+				<label class="comments-form__label" for="username">
+					<input required class="comments-form__input" type="text" id="username" name="username">
+					<p class="comments-form__placeholder">Ваше имя</p>
+				</label>
+
+				<label class="comments-form__label" for="content">
+					<textarea required class="comments-form__textarea" id="content" name="content"></textarea>
+					<p class="comments-form__placeholder">Коментрарий</p>
+				</label>
+				
+				<input class="comments-form__date-input" type="date" id="date" name="date">
+
+				<button class="comments-form__button" type="button" id="submit_comment">Отправить комментарий</button>
+
+			</form>
+
+			<div class="comments-wrapper">
+
+
+				
+			</div>
+
+		</div>
+		
+	</section>
+
+</main>
+
+<!--#include virtual="/parts/footer.html" -->
