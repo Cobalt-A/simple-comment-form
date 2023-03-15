@@ -1,9 +1,13 @@
-simple comment form
+<h3>simple comment form</h3>
 
-you may check this in this url https://cobalt-a.github.io/simple-comment-form/dist
+<hr>
 
-for install all requared modules 'npm i'
+<p>
+    you may check application in this <a href="https://cobalt-a.github.io/simple-comment-form/dist">link</a>
+</p>
 
-run app: 'npm run start'
-
-build app: 'npm run build'
+<ol>
+    <li>for install all requared modules '<strong>npm i</strong>'</li>
+    <li>run app: '<strong>npm run start</strong>'</li>
+    <li>build app: '<strong>npm run build</strong>'</li>
+</ol>
